@@ -43,7 +43,7 @@ public class EntityMovement : MonoBehaviour
         rigidbody.MovePosition(rigidbody.position + velocity * Time.fixedDeltaTime);
 
         if (rigidbody.Raycast(direction)) {
-            direction -= direction;
+            direction = -direction;
         }
 
         if (rigidbody.Raycast(Vector2.down)) {

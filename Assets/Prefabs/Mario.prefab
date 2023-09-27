@@ -131,7 +131,9 @@ GameObject:
   - component: {fileID: 8425774032983247979}
   - component: {fileID: 3807448649651752930}
   - component: {fileID: 4721596706679138687}
+  - component: {fileID: 8742922521362186442}
   - component: {fileID: 3442928076637843844}
+  - component: {fileID: 4248329746368328136}
   m_Layer: 3
   m_Name: Mario
   m_TagString: Player
@@ -218,6 +220,20 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 1}
   m_Direction: 0
+--- !u!114 &8742922521362186442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3364013178722409173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f60dd5df1c65dc94fa53156b0fbdf0ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  smallSpriteRenderer: {fileID: 3905301745131786040}
+  largeSpriteRenderer: {fileID: 4364403147982903772}
 --- !u!114 &3442928076637843844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -233,6 +249,20 @@ MonoBehaviour:
   moveSpeed: 8
   maxJumpHeight: 5
   maxJumpTime: 1
+--- !u!114 &4248329746368328136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3364013178722409173}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90466aa1e3e3d874e91e055cb1a049bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 952450606641459773}
+  deathSprite: {fileID: 21300000, guid: 38e3d1c82208aff42a173011d31bd4ca, type: 3}
 --- !u!1 &5234724655084968767
 GameObject:
   m_ObjectHideFlags: 0

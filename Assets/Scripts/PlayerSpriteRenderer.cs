@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerSpriteRenderer : MonoBehaviour
@@ -26,6 +24,7 @@ public class PlayerSpriteRenderer : MonoBehaviour
     private void OnDisable()
     {
         spriteRenderer.enabled = false;
+        run.enabled = false;
     }
 
     private void LateUpdate()
