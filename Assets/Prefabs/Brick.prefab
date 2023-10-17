@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6423872790185024942}
   - component: {fileID: 714895712479523255}
   - component: {fileID: 718033615020400825}
+  - component: {fileID: 2041743104797695259}
   m_Layer: 0
   m_Name: Brick
   m_TagString: Untagged
@@ -130,3 +131,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &2041743104797695259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 904971463034554478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e84c9d5af759ee94488573e235629ceb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHits: -1
+  emptyBlock: {fileID: 21300000, guid: e271e9ad0e5e0ff47a66a356910394af, type: 3}
